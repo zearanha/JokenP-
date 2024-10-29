@@ -1,0 +1,72 @@
+*{
+    font-family: "Questrial", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./assets/1600x900.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.filhoContainer{
+    margin-top: 30px 0;
+    display: flex;
+    gap: 40px;
+    
+}
+
+button{
+    padding: 10px;
+    font-size: 50px;
+    cursor: pointer;
+    border: none;
+    border-radius: 12px;
+    transition: opacity 0.5s ease-in-out;
+}
+
+button:hover{
+    opacity: 0.7;
+}
+
+
+#stone{
+    background-color: rgb(34, 32, 78);
+}
+
+#paper{
+    background-color: rgb(200, 23, 67);
+}
+
+#scissors{
+    background-color: rgb(10, 98, 43);
+}
+
+
+p{
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.your-score span{
+    color: rgb(0, 98, 255);
+}
+
+.machine-score span{
+    color: rgb(252, 84, 0);
+}
